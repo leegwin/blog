@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.page-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.main_box {
+    position: absolute; top:50%; left:50%;margin-left: -200px; margin-top: -100px; padding: 30px; width:400px; height:400px;overflow: hidden;
+	background:url(../images/bg.png);
+    border-radius: 10px;
+}
+.register_box {
+	position: absolute; top:50%; left:50%;margin-left: -200px; margin-top: -300px; padding: 30px; width:400px; height:600px;overflow: hidden;
+	background:url(../images/bg.png);
+	border-radius: 10px;
+}
+.login_logo {height: 45px; text-align: center;font-size: 25px;line-height: 45px;}
+.login_logo img {height: 45px;}
+.login_form {padding-top: 2px; font-size: 16px;}
+.login_form .form-group {margin-bottom: 20px;text-align: center;}
+.form-group input{display:inline-block;}
+.v_align{vertical-align:middle;}
+.bg_user{background: url("../images/user_friend.png") no-repeat;display: inline-block;width: 30px;height: 28px;cursor: pointer; }
+.bg_pd{background: url("../images/key_login.png") no-repeat;display: inline-block; width:30px;height: 28px;cursor: pointer;}
+.bg_phone{background: url("../images/email.png") no-repeat;display: inline-block; width:30px;height: 28px;cursor: pointer;}
+.bg_birthday{background: url("../images/birthday.png") no-repeat;display: inline-block; width:30px;height: 28px;cursor: pointer;}
+.bg_sex{background: url("../images/sex.png") no-repeat;display: inline-block; width:30px;height: 28px;cursor: pointer;}
+.captcha_img {display: inline-block;width: 80px;height: 30px;cursor: pointer;border:1px  solid  cornflowerblue;}
+.style_x319{border:none;height:30px;width:251px;border-radius:5px;text-indent:10px;}
+.style_x164 {border:none;height:30px;width: 164px;border-radius:5px;text-indent:10px;margin-left: 30px;}
+.form-group .check_style {cursor: pointer;}
+.error_hint{ color:red;}
+.form-group .error_hint span{background:url(../images/icons.png);
+				display: inline-block;
+				width: 19px;
+				height: 16px;
+				margin-top: 5px;
+    			margin-right: 5px;
+    			margin-bottom: 0px;
+				}
+.bottom_box_style{padding-top: 20px; border-top: 1px #FFF dotted;}
+.button_style{margin-left: -20px;}
+.bottom {text-align: center; font-size: 12px;}
